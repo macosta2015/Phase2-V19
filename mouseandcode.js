@@ -228,7 +228,6 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         const editOptions23 = await performRightClickOptionByTitle(newPage, selector10, title22);
         editIntoSketchFunction(editOptions23, newPage);
         ////////////////////////////////////////////////////////////////////////////
-        // console.log("After editIntoSketchFunction");
         await waitForEnter();
         ////////WORKING CODE
         await searchAndClickTransform(newPage);
